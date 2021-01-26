@@ -5,8 +5,18 @@ const User = ({user , addUserHandler}) => {
     //destructuring Here from object
     const {Name , Email , Income , Adress , img} = user;
     //two css style
-    const bodyStyle = {border : '5px solid grey' , margin : '50px' , display : 'flex' , maxWidth :'30%'};
-    const imgStyle = {height : '150px' ,width : '150px' , border : '1px solid lightgrey',margin  :'10px' }
+    const bodyStyle = {
+                                  border : '5px solid grey' ,
+                                  margin : '50px' , 
+                                  display : 'flex' ,
+                                   maxWidth :'30%'
+                                };
+    const imgStyle = {
+                                  height : '150px' ,
+                                  width : '150px' , 
+                                  border : '1px solid lightgrey',
+                                 margin  :'10px' 
+                               }
 
     return (
         <div style={bodyStyle}>
